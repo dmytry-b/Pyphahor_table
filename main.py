@@ -2,7 +2,7 @@ from openpyxl import Workbook
 import os
 
 wb = Workbook()
-dest_filename = 'test_pix.xlsx'
+dest_filename = 'Piphagor.xlsx'
 ws = wb.active
 ws.title = 'Piphagor'
 sise = 10  # Table size
